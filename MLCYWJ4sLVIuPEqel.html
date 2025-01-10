@@ -1,0 +1,138 @@
+<html><head><base href="https://websim.ai/c/Vv5NEcGfmKqRaH3QC">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Penal - CP</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenidos a la Calculadora Penal - CP</h1>
+        
+        <p>Esta plataforma está diseñada específicamente para profesionales y estudiantes del derecho, ofreciendo una serie de herramientas especializadas en el ámbito del derecho penal.</p>
+        
+        <h2>Nuestras Herramientas:</h2>
+        <ul>
+            <li>Cálculo del sexto de la pena</li>
+            <li>Cálculo del sétimo de la pena</li>
+            <li>Cálculo de la pena de multa</li>
+            <li>Cálculo de pena privativa de la libertad</li>
+            <li>Cálculo de los tercios de la pena</li>
+            <li>Cálculo de jornadas de prestación de servicios a la comunidad</li>
+            <li>Cálculo de multas en sistema escalonado y por tercios</li>
+        </ul>
+        
+        <p>Estas herramientas están diseñadas para proporcionar asistencia en la práctica y estudio del derecho penal.</p>
+        
+        <h2>La Calculadora Penal es un recurso valioso para:</h2>
+        <ul>
+            <li>Abogados penalistas en ejercicio</li>
+            <li>Estudiantes de derecho</li>
+            <li>Jueces y fiscales</li>
+            <li>Investigadores en el campo del derecho penal</li>
+            <li>Cualquier profesional interesado en el ámbito jurídico-penal</li>
+        </ul>
+        
+        <p>Invitamos a todos los profesionales y estudiantes del derecho a explorar nuestras herramientas y a utilizarlas como apoyo en su práctica diaria o en sus estudios.</p>
+
+        <a href="https://websim.ai/c/Vv5NEcGfmKqRaH3QC" class="btn">Ingreso a Calculadora Penal - CP</a>
+
+        <div class="footer">
+            <p>Desarrollado por: Joel Chiclayo Tello</p>
+            <p>© 2024 Calculadora Penal. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Calculadora Penal - CP cargada exitosamente');
+            
+            // Efecto de hover para los elementos de la lista
+            const listItems = document.querySelectorAll('li');
+            listItems.forEach(item => {
+                item.addEventListener('mouseover', function() {
+                    this.style.color = '#3498db';
+                    this.style.transition = 'color 0.3s ease';
+                });
+                item.addEventListener('mouseout', function() {
+                    this.style.color = '#333';
+                });
+            });
+            
+            // Efecto de click para el botón
+            const btn = document.querySelector('.btn');
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    window.location.href = this.href;
+                }, 200);
+            });
+        });
+    </script>
+</body></html>
